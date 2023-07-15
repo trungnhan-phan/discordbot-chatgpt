@@ -4,7 +4,7 @@ import json
 
 DISCORD_MAX_LEN = 2000
 
-class DiscordChatGPT(discord.Client):
+class PythonbotChatgpt(discord.Client):
     def __init__(self, config_file):
         super().__init__()
         self.config = self.load_config(config_file)
@@ -63,5 +63,5 @@ class DiscordChatGPT(discord.Client):
         return chunks
 
 config_file = "config.json"
-bot = DiscordChatGPT(config_file)
+bot = PythonbotChatgpt(config_file)
 bot.run(bot.discord_token)
