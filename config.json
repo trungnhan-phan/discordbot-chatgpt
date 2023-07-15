@@ -1,0 +1,7 @@
+{
+    "discord-auth-token":"",
+    "discord-channel-id":"",
+    "openai-api-key":"",
+    "openai_engine":"text-davinci-003",
+    "openai-organization-id":""
+}
